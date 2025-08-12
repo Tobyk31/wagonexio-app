@@ -1,16 +1,19 @@
 .header {
+  display: flex;
+  width: 80rem;
+  height: 4.29981rem;
+  padding: 0.64944rem 0 0.65038rem 60.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
   background-color: var(--background-main);
   border-bottom: 1px solid var(--border-color);
-  padding: 1rem 0;
 }
 
 .header-content {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  gap: 2rem;
 }
 
 .nav-button {
