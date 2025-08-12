@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  width: 76.8rem;
+  max-width: 100%;
+  height: 12.8125rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.8375rem;
+  letter-spacing: -0.256rem;
+  margin: 0;
+}
+
+.text-primary {
+  color: #E1E5EE;
+}
+
+.text-accent {
+  color: #621FF;
+}
