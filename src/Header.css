@@ -1,19 +1,31 @@
 .header {
   display: flex;
-  width: 80rem;
-  height: 4.29981rem;
-  padding: 0.64944rem 0 0.65038rem 60.5rem;
-  justify-content: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  justify-content: space-between;
   align-items: center;
-  flex-shrink: 0;
   background-color: var(--background-main);
   border-bottom: 1px solid var(--border-color);
 }
 
 .header-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
 }
 
 .nav-button {
@@ -21,7 +33,6 @@
   color: var(--text-primary);
   border: none;
   padding: 0.5rem 1rem;
-  margin: 0 0.5rem;
   border-radius: 4px;
   cursor: pointer;
 }
