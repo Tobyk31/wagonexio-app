@@ -1,0 +1,36 @@
+:root {
+  /* Primary Brand Colors */
+  --primary-color: #62A1FF;
+  --primary-light: #FFFFFF;
+  --primary-dark: #your-color-here;
+  
+  /* Secondary Colors */
+  --secondary-color: #90909008;
+  --secondary-light:#2E344E;
+  --secondary-dark: #your-color-here;
+  
+  /* Background Colors */
+  --background-main: #552FFF;
+  --background-secondary: #EEF1F9;
+  --background-card: #F5F7FA;
+  
+  /* Text Colors */
+  --text-primary: #0F142B;
+  --text-secondary: #your-color-here;
+  --text-light: #your-color-here;
+  
+  /* Button Colors */
+  --button-primary: #your-color-here;
+  --button-secondary: #your-color-here;
+  --button-success: #your-color-here;
+  --button-danger: #your-color-here;
+  
+  /* Border & Line Colors */
+  --border-color: #your-color-here;
+  --border-light: #your-color-here;
+  
+  /* Other Colors */
+  --accent-color: #your-color-here;
+  --hover-color: #your-color-here;
+  --shadow-color: #your-color-here;
+}
